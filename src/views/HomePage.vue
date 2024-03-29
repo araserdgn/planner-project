@@ -2,10 +2,8 @@
   <div class="home">
     <div v-if="projects.length">
       <div v-for="project in projects" :key="project.id">
-        <!-- <h2>{{ project.title }}</h2>
-        <p>{{ project.details }}</p> -->
 
-        <SingleProject :project="project"></SingleProject>
+        <SingleProject :project="project" @delete="handleDelete" @complete ="handComplete"></SingleProject>
 
       </div>
     </div>
@@ -29,5 +27,14 @@ export default {
   mounted() {
     fetch('http://localhost:3000/projects').then(res=>res.json()).then(data => this.projects = data).catch(err =>console.log(err.message)) //istek attık locale, sonra geen json'u okuduk
   },
+  handleDelete(id) {
+    this.projects = this.projects.filter((project) => {
+      return project.id !== id
+    })
+  },
+  handComplete(id) {
+    let p = this.projects.find(project => project.id === id)
+    p.complete = !p.complete;
+  }
 };
 </script>

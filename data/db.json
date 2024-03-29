@@ -1,23 +1,28 @@
 {
-    "projects" : [
-        {
-            "id":1,
-            "title":"Deneme Baslık 1",
-            "details":"Bazen Backend tarafında servisler hazır olmayabiliyor bu sebeple Client tarafı geliştirmenin durmaması için bir prototip kullanabiliyor.",
-            "complete":true
-        },
-        {
-            "id":2,
-            "title":"Deneme Baslık 2",
-            "details":"Client tarafı geliştirmenin durmaması için bir prototip kullanabiliyor.",
-            "complete":false
-        },
-        {
-            "id":3,
-            "title":"Deneme Baslık 3",
-            "details":"Servisler hazır olmayabiliyor bu sebeple Client tarafı geliştirmenin durmaması için bir prototip kullanabiliyor.",
-            "complete":true
-        }
-    ]
+  "projects": [
+    {
+      "id": "1",
+      "title": "Deneme Baslık 1",
+      "details": "Servisler hazır olmayabiliyor bu sebeple Client tarafı geliştirmenin durmaması için bir prototip kullanabiliyor.",
+      "complete": false
+    },
+    {
+      "id": "2",
+      "title": "Deneme Baslık 2",
+      "details": "Servisler hazır olmayabiliyor bu sebeple Client tarafı geliştirmenin durmaması için bir prototip kullanabiliyor.",
+      "complete": false
+    },
+    {
+      "id": "3",
+      "title": "Deneme Baslık 3",
+      "details": "Client tarafı geliştirmenin durmaması için bir prototip kullanabiliyor.",
+      "complete": true
+    },
+    {
+      "id": "4",
+      "title": "Deneme Baslık 4",
+      "details": "Servisler hazır olmayabiliyor bu sebeple Client tarafı geliştirmenin durmaması için bir prototip kullanabiliyor.",
+      "complete": false
+    }
+  ]
 }
-
