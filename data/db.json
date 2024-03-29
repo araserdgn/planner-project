@@ -4,7 +4,7 @@
       "id": "1",
       "title": "Deneme Baslık 1",
       "details": "Servisler hazır olmayabiliyor bu sebeple Client tarafı geliştirmenin durmaması için bir prototip kullanabiliyor.",
-      "complete": false
+      "complete": true
     },
     {
       "id": "2",
@@ -22,6 +22,12 @@
       "id": "4",
       "title": "Deneme Baslık 4",
       "details": "Servisler hazır olmayabiliyor bu sebeple Client tarafı geliştirmenin durmaması için bir prototip kullanabiliyor.",
+      "complete": false
+    },
+    {
+      "id": "7f0f",
+      "title": "deneme Baslık 6",
+      "details": "deneme 6 denemene 6 deneme 6",
       "complete": false
     }
   ]
