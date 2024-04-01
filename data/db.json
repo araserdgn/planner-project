@@ -1,12 +1,6 @@
 {
   "projects": [
     {
-      "id": "1",
-      "title": "Deneme Baslık 1",
-      "details": "Servisler hazır olmayabiliyor bu sebeple Client tarafı geliştirmenin durmaması için bir prototip kullanabiliyor.",
-      "complete": true
-    },
-    {
       "id": "2",
       "title": "Deneme Baslık 2",
       "details": "Servisler hazır olmayabiliyor bu sebeple Client tarafı geliştirmenin durmaması için bir prototip kullanabiliyor.",
@@ -29,6 +23,12 @@
       "title": "deneme Baslık 6",
       "details": "deneme 6 denemene 6 deneme 6",
       "complete": false
+    },
+    {
+      "id": "333f",
+      "title": "deneme Baslık 7",
+      "details": "Deneme baslık 7,post denemesi",
+      "complete": true
     }
   ]
 }
